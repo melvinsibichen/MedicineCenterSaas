@@ -1,16 +1,21 @@
-.about .row{
-    min-height: 50vh;
+.about{
+    &__p{
+        padding: 1rem o;
+        font-size: 1rem;
+        color:$black;       
+    }
+    &__img{
+        padding:20px
+    }
+    &__row{
+        min-height: 50vh;
+    }
+    &__span{
+        font-size: 2rem;
+        color:$black
+    }
 }
-.about .content span{
-    font-size: 2rem;
-    color:$black
-}
-.about .content p{
-    padding: 1rem o;
-    font-size: 1rem;
-    color:$black
-   
-}
-.about img{
-    padding:20px
-}
+
+
+
+
