@@ -1,0 +1,26 @@
+.be-department{
+    background-color:$gray1;
+    color:$white;
+   
+}
+.be-department__title{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.be-department__p{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.be-department__units{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 20px 20px;
+}
+.be-department__units h6{
+    padding-top: 30px;
+
+}
