@@ -1,0 +1,29 @@
+.header{
+    width: 100%;
+    height: 120vh;
+    background-image: url("//images01.nicepage.com/cb/dc/cbdcdba2c3d2a70b362554a6b4fd749a.jpeg");
+    background-size: cover;
+    background-position: center;
+
+    &__div{
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }   
+
+    &__h1{
+        font-weight: 500;
+        color:black;
+        font-size: 70px;
+        letter-spacing: 1px;
+        
+        margin-top: 332px;
+        margin-left: 86px;
+    }
+
+    &__p{
+        text-align: justify;
+        font-size: 18px;
+        margin-left: 70px;
+    }
+}

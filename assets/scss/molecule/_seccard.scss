@@ -1,0 +1,44 @@
+.seccard{
+    background-color: rgb(173, 170, 170);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 25%;
+    height: 350px;    
+    border: 1px solid black;
+   
+    &__icon{
+        width: 50px;
+        height: auto;       
+        padding-bottom: 10px;
+        
+    }   
+
+   
+    &__h3{
+        text-align: center;
+        font-size: 18px;
+        font-weight: 500;
+        color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: 20px;
+        margin-top: 30px;
+
+    }
+    &__p{
+        font-size: 17px;
+        color: white;
+        text-align: center;
+    }
+
+    &--two{
+        background-color: rgb(110, 109, 109);
+    }
+    &--three{
+        background-color: rgb(73, 72, 72);
+    }
+}
