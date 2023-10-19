@@ -1,4 +1,43 @@
-.header{
+.banner {
+    padding: 7rem 2rem;
+    background: url("//images01.nicepage.com/cb/dc/cbdcdba2c3d2a70b362554a6b4fd749a.jpeg");
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 200px 0px;
+    min-height: 500px;
+    position: relative;
 
+    &__h1 {
 
+        font-size: 60px;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+
+    &__btn {
+        background-color: rgb(84, 77, 77);
+        color: white;
+        padding: 8px 24px;
+        text-decoration: none;
+        border-radius: 0px;
+        font-size: 20px;
+        font-weight: 600;
+
+    }
+
+    &__btn:hover {
+        background-color: whitesmoke;
+        color: black;
+    }
+
+    &__div {
+        max-width: 600px;
+    }
+
+    &__p {
+        margin-bottom: 23px;
+        margin-top: 15px;
+    }
 }

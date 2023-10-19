@@ -1,0 +1,104 @@
+.worldmap {
+    background: #03081c7d;
+
+
+    &__pin {
+        width: 100%;
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 1rem;
+        position: relative;
+        padding-top: 0px;
+    }
+
+    &__img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+
+    }
+
+    &__title {
+        margin-top: 0px;
+        text-align: center;
+        color: #fff;
+        margin: 2rem 0;
+        padding: 0 1em;
+    }
+
+    &__heading {
+        padding-top: 30px;
+    }
+
+    &__p {
+        max-width: 500px;
+        margin: 1em auto;
+        line-height: 27px;
+        margin-bottom: 0;
+
+    }
+
+    &__pinusa {
+        top: 50%;
+        left: 21%;
+    }
+
+    &__pinfrance {
+        top: 45%;
+        left: 48%;
+    }
+
+    &__pinswedan {
+        top: 33%;
+        left: 52%;
+    }
+
+    &__pinafrica {
+        top: 28%;
+        left: 79%;
+    }
+
+    .pin {
+        background: #959bba;
+        position: absolute;
+        width: 0.7em;
+        height: 0.7em;
+        border-radius: 50%;
+
+    }
+
+    .pin::before {
+        content: '';
+        background: #c7cef0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        animation: pulse 1.3s ease-in-out infinite;
+    }
+
+    .pin span {
+        display: inline-block;
+        white-space: nowrap;
+        position: absolute;
+        left: 1.5em;
+        top: 50%;
+        transform: translateY(-50%);
+        background: rgb(46, 43, 43);
+        border-radius: 3em;
+        padding: 0.3em 0.6em;
+        font-size: 0.9em;
+        color: white;
+    }
+
+    @keyframes pulse {
+        100% {
+            opacity: 0;
+            transform: translate(-50%, -50%);
+            scale: (2.5);
+        }
+    }
+}
