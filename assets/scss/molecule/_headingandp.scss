@@ -1,0 +1,22 @@
+.headingandp{
+    
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__heading{
+        
+    padding-top: $spacer-3;
+    padding-bottom:$spacer-5;
+
+    }
+
+    &__paragraph{
+       
+        padding-bottom:$spacer-6;
+
+    }
+}

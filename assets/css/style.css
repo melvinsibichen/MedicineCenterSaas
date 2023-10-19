@@ -10,7 +10,7 @@ body {
   box-sizing: border-box; }
 
 .header__btn {
-  background-color: #544d4d;
+  background-color: #22232b;
   color: #fff;
   padding: 8px 24px;
   text-decoration: none;
@@ -22,7 +22,7 @@ body {
   color: #000; }
 
 .seccard {
-  background-color: #adaaaa;
+  background-color: #b3afaf;
   padding: 10px;
   display: flex;
   flex-direction: column;
@@ -38,19 +38,31 @@ body {
     text-align: center;
     font-size: 18px;
     font-weight: 500;
-    color: white;
+    color: #fff;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-left: 20px;
     margin-top: 30px; }
   .seccard__p {
     font-size: 17px;
-    color: white;
+    color: #fff;
     text-align: center; }
   .seccard--two {
-    background-color: #6e6d6d; }
+    background-color: #706969; }
   .seccard--three {
-    background-color: #494848; }
+    background-color: #504d4d; }
+
+.headingandp {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .headingandp__heading {
+    padding-top: 50px;
+    padding-bottom: 20px; }
+  .headingandp__paragraph {
+    padding-bottom: 40px; }
 
 .banner {
   padding: 7rem 2rem;
@@ -61,55 +73,60 @@ body {
   padding: 200px 0px;
   min-height: 500px;
   position: relative; }
-  .banner__h1 {
+  .banner__heading {
     font-size: 60px;
     font-weight: 500;
     text-transform: uppercase; }
+  .banner__paragraph {
+    margin-bottom: 23px;
+    margin-top: 15px; }
   .banner__btn {
-    background-color: #544d4d;
-    color: white;
+    background-color: #22232b;
+    color: #fff;
     padding: 8px 24px;
     text-decoration: none;
     border-radius: 0px;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 600; }
   .banner__btn:hover {
-    background-color: whitesmoke;
-    color: black; }
+    background-color: #fff;
+    color: #000; }
   .banner__div {
     max-width: 600px; }
-  .banner__p {
-    margin-bottom: 23px;
-    margin-top: 15px; }
 
 .seccardsession {
   display: flex;
-  margin: -70px;
+  margin: 0px;
   justify-content: center; }
 
 @media (max-width: 620px) {
   .seccardsession {
-    display: block; } }
+    display: block;
+    width: auto;
+    height: auto;
+    flex-wrap: wrap; } }
 .caresession {
-  margin-top: 80px; }
+  margin-top: 40px; }
   .caresession__row {
-    min-height: 50vh; }
-  .caresession__content span {
+    min-height: 20vh;
+    display: flex; }
+  .caresession__heading {
     font-size: 2rem;
-    color: black;
-    font-weight: 400px; }
-  .caresession__content p {
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 4px; }
+  .caresession__paragraph {
     padding: 1rem o;
     font-size: 1rem;
-    color: black; }
+    color: #000; }
   .caresession__img {
     padding: 20px; }
 
 .worldmap {
-  background: #03081c7d; }
+  background: #22232b; }
   .worldmap__pin {
     width: 100%;
-    max-width: 1100px;
+    max-width: 1100;
     margin: 0 auto;
     padding: 1rem;
     position: relative;
@@ -126,7 +143,7 @@ body {
     padding: 0 1em; }
   .worldmap__heading {
     padding-top: 30px; }
-  .worldmap__p {
+  .worldmap__paragraph {
     max-width: 500px;
     margin: 1em auto;
     line-height: 27px;
@@ -144,14 +161,14 @@ body {
     top: 28%;
     left: 79%; }
   .worldmap .pin {
-    background: #959bba;
+    background: #b3afaf;
     position: absolute;
     width: 0.7em;
     height: 0.7em;
     border-radius: 50%; }
   .worldmap .pin::before {
     content: '';
-    background: #c7cef0;
+    background: #fff;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -167,15 +184,62 @@ body {
     left: 1.5em;
     top: 50%;
     transform: translateY(-50%);
-    background: #2e2b2b;
+    background: #504d4d;
     border-radius: 3em;
     padding: 0.3em 0.6em;
     font-size: 0.9em;
-    color: white; }
+    color: #fff; }
 @keyframes pulse {
   100% {
     opacity: 0;
     transform: translate(-50%, -50%);
     scale: 2.5; } }
+.modernsession__name {
+  font-weight: bold; }
+.modernsession__icon {
+  padding-right: 10px; }
+
+.departmentsession {
+  background-color: #706969;
+  color: #fff; }
+  .departmentsession__units {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 20px 20px; }
+  .departmentsession__name {
+    padding-top: 30px; }
+
+.imagecard {
+  padding: 20px;
+  background-color: #cec7c7; }
+  .imagecard__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 40px;
+    padding: 20px 20px;
+    margin-left: 60px; }
+  .imagecard__body {
+    background-color: #fff;
+    margin-top: 0px; }
+  .imagecard__img {
+    margin-right: 20px;
+    margin-left: 20px;
+    align-items: center; }
+  .imagecard__heading {
+    text-align: left;
+    font-weight: 300;
+    margin-top: 30px;
+    padding: 10px; }
+  .imagecard__paragraph {
+    text-align: left;
+    padding: 10px; }
+  .imagecard__readmore {
+    padding: 10px;
+    color: #3361aa; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,51 @@
+.imagecard {
+
+    padding: $spacer-5;
+    background-color: $lgray;
+
+    &__container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: left;
+        margin-bottom: $spacer-6;
+        padding: 20px 20px;
+        margin-left: $spacer-13;
+        
+    }
+    &__body{
+        background-color: $white;
+        margin-top: 0px;
+    }
+
+    &__img {
+        margin-right: $spacer-5;
+        margin-left: $spacer-5;
+        align-items: center;
+
+    }
+
+    &__heading {
+        text-align: left;
+        font-weight: 300;
+        margin-top: $spacer-9;
+        padding: 10px;
+    }
+
+    &__paragraph {
+        text-align: left;
+        padding: 10px;
+
+    }
+
+    &__readmore{
+        padding: 10px;
+        color: rgb(51, 97, 170);
+
+    }
+
+
+
+
+
+}

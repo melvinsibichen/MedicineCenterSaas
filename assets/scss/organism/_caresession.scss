@@ -1,25 +1,28 @@
 
 .caresession{
+   
 
-    margin-top: 80px;
+    margin-top:$spacer-6;
 
 
 &__row{
-    min-height: 50vh;
+    min-height: 20vh;
+    display: flex;
 }
-&__content span{
+&__heading{
     font-size: 2rem;
-    color: black;
-    font-weight: 400px;
+    color:$black;
+    font-weight: bold;
+    margin-bottom: $spacer-11;
 }
-&__content p{
+&__paragraph{
     padding: 1rem o;
     font-size: 1rem;
-    color: black;
+    color: $black;
    
 }
 &__img{
-    padding:20px
+    padding:$spacer-5;
 }
 
 }

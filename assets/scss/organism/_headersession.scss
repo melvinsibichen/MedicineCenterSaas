@@ -6,38 +6,39 @@
     background-repeat: no-repeat;
     background-position: center;
     padding: 200px 0px;
-    min-height: 500px;
+    min-height: $spacer-12;
     position: relative;
 
-    &__h1 {
+    &__heading {
 
-        font-size: 60px;
+        font-size: $spacer-13;
         font-weight: 500;
         text-transform: uppercase;
     }
+    &__paragraph {
+        margin-bottom: $spacer-2;
+        margin-top: $spacer-1;
+    }
 
     &__btn {
-        background-color: rgb(84, 77, 77);
-        color: white;
+        background-color: $brown;
+        color: $white;
         padding: 8px 24px;
         text-decoration: none;
-        border-radius: 0px;
-        font-size: 20px;
+        border-radius: $spacer-14;
+        font-size:$spacer-1;
         font-weight: 600;
 
     }
 
     &__btn:hover {
-        background-color: whitesmoke;
-        color: black;
+        background-color: $white;
+        color: $black;
     }
 
     &__div {
-        max-width: 600px;
+        max-width: $spacer-15;
     }
 
-    &__p {
-        margin-bottom: 23px;
-        margin-top: 15px;
-    }
+    
 }

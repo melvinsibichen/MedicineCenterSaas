@@ -1,0 +1,25 @@
+.imagecard{
+    padding: $spacer-5;
+    background-color:$gray1;
+
+
+&__img{
+    margin-right: $spacer-5;
+    margin-left: $spacer-5;
+    align-items: center;
+    
+}
+&__heading{
+    text-align: center;
+    font-weight:600;
+}
+
+&__paragraph{
+    text-align: left;
+    
+}
+}
+
+
+
+

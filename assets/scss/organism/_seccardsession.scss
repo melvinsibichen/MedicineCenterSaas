@@ -1,7 +1,8 @@
 .seccardsession{
     display: flex; 
-    margin: -70px;
+    margin: $spacer-14;
     justify-content: center;
+   
 }
 
 @include mobile{
@@ -9,6 +10,9 @@
     .seccardsession{
 
         display: block;
+        width: auto;
+        height: auto;
+        flex-wrap: wrap;
        
     }
 
