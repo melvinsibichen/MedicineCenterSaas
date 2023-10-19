@@ -7,7 +7,8 @@ body {
   font-family: 'Open Sans', sans-serif;
   margin: 0px;
   padding: 0px;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  overflow-x: hidden; }
 
 .header__btn {
   background-color: #22232b;
@@ -64,9 +65,23 @@ body {
   .headingandp__paragraph {
     padding-bottom: 40px; }
 
+.imagecard {
+  padding: 20px;
+  background-color: #b3afaf; }
+  .imagecard__img {
+    margin-right: 20px;
+    margin-left: 20px;
+    align-items: center; }
+  .imagecard__heading {
+    text-align: center;
+    font-weight: 600; }
+  .imagecard__paragraph {
+    text-align: left; }
+
 .banner {
   padding: 7rem 2rem;
   background: url("//images01.nicepage.com/cb/dc/cbdcdba2c3d2a70b362554a6b4fd749a.jpeg");
+  width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -94,10 +109,18 @@ body {
   .banner__div {
     max-width: 600px; }
 
+@media screen and (max-width: 600px) {
+  .banner {
+    width: auto; }
+
+  .banner__heading {
+    font-size: 20px;
+    font-weight: 500px; } }
 .seccardsession {
   display: flex;
   margin: 0px;
-  justify-content: center; }
+  justify-content: center;
+  width: 100%; }
 
 @media (max-width: 620px) {
   .seccardsession {
@@ -105,6 +128,12 @@ body {
     width: auto;
     height: auto;
     flex-wrap: wrap; } }
+@media screen and (max-width: 600px) {
+  .seccardsession {
+    width: 100%; }
+
+  .seccard {
+    width: auto; } }
 .caresession {
   margin-top: 40px; }
   .caresession__row {
@@ -241,5 +270,78 @@ body {
   .imagecard__readmore {
     padding: 10px;
     color: #3361aa; }
+
+.formsession__container {
+  width: 100%;
+  height: 80vh;
+  background-color: gray; }
+.formsession__heading {
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 30px;
+  color: white; }
+.formsession__paragraph {
+  font-size: 18px;
+  margin-left: 70px;
+  margin-right: 70px;
+  padding-top: 1px;
+  text-align: center;
+  color: white;
+  padding-bottom: 20px; }
+.formsession__name {
+  width: 750px;
+  height: 40px;
+  display: block;
+  margin-left: 260px;
+  font-size: 17px;
+  margin-bottom: 10px;
+  background-color: #332f2f;
+  color: #fff; }
+.formsession__email {
+  width: 750px;
+  height: 40px;
+  display: block;
+  margin-left: 260px;
+  font-size: 17px;
+  margin-bottom: 10px;
+  background-color: #332f2f;
+  color: #fff; }
+.formsession__msg {
+  width: 750px;
+  height: 90px;
+  display: block;
+  margin-left: 260px;
+  font-size: 17px;
+  margin-bottom: 10px;
+  background-color: #332f2f;
+  color: #fff; }
+.formsession__btn {
+  width: 100px;
+  height: 40px;
+  display: block;
+  margin-left: 570px;
+  font-size: 17px;
+  margin-bottom: 10px;
+  padding: 0 px 10px; }
+.formsession__btn:hover {
+  background-color: black;
+  color: white; }
+
+@media screen and (max-width: 600px) {
+  .formsession__name {
+    width: 250px;
+    margin-left: 30px; }
+
+  .formsession__email {
+    width: 250px;
+    margin-left: 30px; }
+
+  .formsession__msg {
+    width: 250px;
+    margin-left: 30px; }
+
+  .formsession__btn {
+    margin-left: 30px; } }
 
 /*# sourceMappingURL=style.css.map */

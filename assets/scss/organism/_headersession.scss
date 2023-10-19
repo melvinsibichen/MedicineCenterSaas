@@ -1,6 +1,7 @@
 .banner {
     padding: 7rem 2rem;
     background: url("//images01.nicepage.com/cb/dc/cbdcdba2c3d2a70b362554a6b4fd749a.jpeg");
+    width: 100%;
     
     background-size: cover;
     background-repeat: no-repeat;
@@ -41,4 +42,17 @@
     }
 
     
+}
+
+@media screen and (max-width:600px) {
+
+    .banner{
+        width: auto;
+    }
+    .banner__heading{
+        font-size: 20px;
+        font-weight: 500px;
+    }
+    
+
 }
