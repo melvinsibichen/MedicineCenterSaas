@@ -1,17 +1,50 @@
 .header{
-   
+ 
     &__btn {
-        background-color:$brown;
+        background-color:$black;
         color:$white;
-        padding: 8px 24px;
+        padding:$spacer-4;
         text-decoration: none;
         border-radius: 0px;
-        font-size: 20px;
+        font-size:$spacer-8;
         font-weight: 600;    
     }
     &__btn:hover {
         background-color:$white;
         color:$black;
+    }
+    &__btn--banner{
+        background-color:$black;
+        color:$white;
+        padding:$spacer-4;
+        text-decoration: none;
+        border-radius: 0px;
+        font-size:$spacer-8;
+        font-weight: 600; 
+
+    }
+
+    &__btn--banner:hover{
+        background-color:$white;
+        color:$black;
+
+    }
+
+    &__btn--form{
+        background-color:$black;
+        color:$white;
+        padding:$spacer-4;
+        text-decoration: none;
+        border-radius: 0px;
+        font-size:$spacer-8;
+        font-weight: 600; 
+        margin-left: 600px;
+
+    }
+    &__btn--form:hover{
+        background-color:$white;
+        color:$black;
+
     }
 
 

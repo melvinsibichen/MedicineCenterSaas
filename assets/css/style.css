@@ -11,14 +11,37 @@ body {
   overflow-x: hidden; }
 
 .header__btn {
-  background-color: #22232b;
+  background-color: #000;
   color: #fff;
-  padding: 8px 24px;
+  padding: 10px;
   text-decoration: none;
   border-radius: 0px;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600; }
 .header__btn:hover {
+  background-color: #fff;
+  color: #000; }
+.header__btn--banner {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 0px;
+  font-size: 18px;
+  font-weight: 600; }
+.header__btn--banner:hover {
+  background-color: #fff;
+  color: #000; }
+.header__btn--form {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 0px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 600px; }
+.header__btn--form:hover {
   background-color: #fff;
   color: #000; }
 
